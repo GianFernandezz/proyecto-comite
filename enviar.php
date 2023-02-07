@@ -24,7 +24,7 @@ require './PHPMailer/src/SMTP.php';
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->setFrom($email, $nombre);
-    $mail->addAddress('markcarranzafer12@gmail.com');
+    $mail->addAddress('marketing@iteprevengo.com');
     // $mail->addCC('ejemplo@gmail.com');
     
     // Asunto

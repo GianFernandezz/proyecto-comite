@@ -9,7 +9,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>ItePrevengo Software</title>
+  <title>ItePrevengo - Comité SST</title>
   <meta name="title" content="ItePrevengo Software">
   <meta name="description" content="#">
 
@@ -72,10 +72,7 @@
             
                 
             <div class="video-main">
-                <!-- <video autoplay controls>
-                    <source src="./assets/video/video1.mp4" type="video/mp4">
-                </video> -->
-                <iframe src="https://player.vimeo.com/video/786406544?h=2473071faf" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/796803995?h=6cec15280a" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
 
             

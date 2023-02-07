@@ -10,7 +10,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>ItePrevengo Software</title>
+  <title>ItePrevengo - Comité SST</title>
   <meta name="title" content="ItePrevengo Software">
   <meta name="description" content="#">
 
