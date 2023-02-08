@@ -30,7 +30,6 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/presentacion.css">
   <link rel="stylesheet" href="./assets/css/alertify.min.css">
   <!-- Default theme -->
   <link rel="stylesheet" href="./assets/css/default.min.css"/>
@@ -41,13 +40,11 @@
 </head>
 
 <body>
-      <!-- 
-        - #BOTON-FLOTANTE-WHATSAPP
-      -->
-      <a href="https://wa.me/51943776124" class="btn-wsp" target="_blank">
-        <ion-icon name="logo-whatsapp" class="whats"></ion-icon> 
-      </a>
+      
 
+      
+  <main>
+    <article>
       <!-- 
         - #SERVICE
       -->
@@ -60,9 +57,6 @@
           <p class="section-subtitle">Aún sin ser un especialista y sin necesidad de un consultor en tu empresa</p>
         </div>
       </section>
-  <main>
-    <article>
-
 
       <!-- 
         - #ABOUT
@@ -96,7 +90,7 @@
                     <button class="accordion-btn">
                       <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <p class="span h3 btn-abrir">Los pasos para lograr la conformación del conteo o supervición SST</p>
+                      <p class="span h3 btn-abrir">Los pasos para lograr la conformación del comité o supervisor SST</p>
                     </button>
                   </h3>
               </li>
@@ -157,11 +151,11 @@
                       
                       <form action="enviar.php" method="post" id="formulario" autocomplete="off">
 
-                          <input type="text" class="fon-campo" id="nombre" name="nombre" placeholder="Esccribe tu nombre completo">
+                          <input type="text" class="fon-campo" id="nombre" name="nombre" maxlength="40" placeholder="Esccribe tu nombre completo">
 
                           <input type="text" class="fon-campo" id="email" name="email" placeholder="Esccribe tu correo electronico" >
 
-                          <input type="text" class="fon-campo" id="phone" name="phone" placeholder="Esccribe tu número de celular" >
+                          <input type="text" class="fon-campo" id="phone" name="phone" maxlength="9" placeholder="Esccribe tu número de celular" >
 
                           <button class="subs-send" id="btn-validar" type="submit" name="send">Iniciar Presentación
                             

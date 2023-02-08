@@ -125,20 +125,50 @@
     background: #e68911;
 }
 
+/*-----------------------------------*\
+  #SANCIONES
+\*-----------------------------------*/
+.sanciones{
+    /* background-color: red; */
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+
 
 /* VIDEO */
 
-
 .video-main iframe{
     display: block;
-    margin: 5px auto;
-    width: 80%;
-    height: calc(.88125 * 80vw);
+    margin: 2px auto;
+    width: 90%;
+    height: calc(.88125 * 90vw);
     max-width: 1280px;
     max-height: 720px;
     min-width: 320px;
-    min-height: 180px;
+    min-height: 180px;   
 }
+
+
+@media (max-width:360px){
+    .section-subtitle-presentacion{
+        font-size: 18px;
+        text-align: center;
+    }
+  }
+@media (max-width:415px){
+    .video .video-main iframe{
+        height: 200px;
+    }
+
+    /* texto-Presentacion */
+    .section-subtitle-presentacion{
+        font-size: 23px;
+        text-align: justify;
+    }
+    
+  }
+
 
 .agendar-cita a{
     /* background-color: red; */
@@ -148,12 +178,13 @@
 .sombrear{
     background-color: #E9F930;
     font-family: 'Poppins';
-    /* padding: 5px; */
-    
+    /* text-align: justify; */
 }
 
 
 /* IMG - INFO */
+
+
 .img-title{
     display: flex;
     justify-content: center;
@@ -164,14 +195,39 @@
 .img-info{
     display: flex;
     justify-content: center; 
-    padding: 15px 20px 15px 20px;
-     
 }
+
 .img-info img{
     width: 100%;
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
+
+/* TEST _ */
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+  
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 100%;
+    max-height: 80%;
+    /* padding: 4px;
+    background-color: black;
+    border: 2px solid white; */
+  }
+/* TEST _ FIN */
 
 
 /* Testimoniales */

@@ -49,16 +49,13 @@
     <article>
 
         <!-- 
-        - #SERVICE
+        - #SANCIONES
         -->
 
-      <section class="section service">
+      <section class="section sanciones">
         <div class="container">
-          <h1 class="h1 section-title">
-            ¿Quieres <strong class="resaltar">evitar sanciones</strong>  <strong class="resaltar">por no contar</strong> con un <strong class="resaltar">comité</strong> o <strong class="resaltar">supervisor</strong> de seguridad y salud?
-          </h1>
           <div class="sombrear">
-          <p class="section-subtitle">Entrenamiento + Consultoría Online + Software = CERO sanciones</p>
+          <p class="h2 section-subtitle-presentacion">Entrenamiento + Consultoría + Software = CERO SANCIONES</p>
           </div>
         </div>
       </section>
@@ -72,7 +69,7 @@
             
                 
             <div class="video-main">
-                <iframe src="https://player.vimeo.com/video/796803995?h=6cec15280a" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe src="https://player.vimeo.com/video/797083479?h=4779914251" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
 
             
@@ -83,20 +80,24 @@
             <a href="./contacto-cita.php" class="btn btn-primary" target="_blank">Agendar una cita</a>
         </button>
         </center>
+        <!-- 
+        - #IMG -
+        -->
 
-
-        <section class="container">
-          <div class="img-title">
-            <h3 class="h2 section-title">Nuestro Servicio Comité SST</h3>
-          </div>
-          <div class="img-info">  
-            <img src="./assets/images/img-1.jpg" alt="img-informativa">
-          </div>
-          <div class="img-title">
-            <h3 class="h2 section-title">Escala de Multas</h3>
-          </div>
-          <div class="img-info">
-                <img src="./assets/images/escala-de-multas expresada-en-soles.jpg" alt="img-informativa">
+        <section class="imagenes-informativas">
+          <div class="container">
+            <div class="img-title">
+              <h3 class="h2 section-title">Nuestro Servicio Comité SST</h3>
+            </div>
+            <div class="img-info">  
+              <img src="./assets/images/img-1.jpg" alt="img-informativa">
+            </div>
+            <div class="img-title">
+              <h3 class="h2 section-title">Escala de Multas</h3>
+            </div>
+            <div class="img-info">
+                  <img src="./assets/images/escala-de-multas expresada-en-soles.jpg" alt="img-informativa">
+            </div>
           </div>
         </section>
 
@@ -322,8 +323,32 @@
 
     </div>
   </footer>
+      <!-- 
+          - IMG-Zoom
+        -->
+      <script>
+        const lightbox = document.createElement('div')
+        lightbox.id = 'lightbox'
+        document.body.appendChild(lightbox)
 
+        const images = document.querySelectorAll('.img-info img')
+        images.forEach(image => {
+          image.addEventListener('click', e => {
+            lightbox.classList.add('active')
+            const img = document.createElement('img')
+            img.src = image.src
+            while (lightbox.firstChild) {
+              lightbox.removeChild(lightbox.firstChild)
+            }
+            lightbox.appendChild(img)
+          })
+        })
 
+        lightbox.addEventListener('click', e => {
+          if (e.target !== e.currentTarget) return
+          lightbox.classList.remove('active')
+        })
+      </script>
   <!-- 
     - ionicon
   -->
