@@ -44,10 +44,10 @@ document.getElementById('formulario').addEventListener('submit', async(e) => {
        
     }
 
-    let msg = alertify.message('Cargando');
-        msg.delay(3).setContent('Cargando ... ');
+    // let msg = alertify.message('Cargando');
+    //     msg.delay(3).setContent('Cargando ... ');
 
-        alertify.success("Registro de datos fue exitoso")
+    //     alertify.success("Registro de datos fue exitoso")
         document.getElementById('nombre').value = '';
         document.getElementById('email').value = '';
         document.getElementById('phone').value = '';
