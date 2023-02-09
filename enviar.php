@@ -25,7 +25,7 @@ require './PHPMailer/src/SMTP.php';
     $mail->isHTML(true);
     $mail->setFrom($email, $nombre);
     $mail->addAddress('marketing@iteprevengo.com');
-    $mail->addCC('kalberca@iteprevengo.com');
+    // $mail->addCC('kalberca@iteprevengo.com');
     
     // Asunto
     $mail->Subject = ("Contacto Landing Comité: $email ($phone)");
