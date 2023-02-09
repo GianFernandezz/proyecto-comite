@@ -11,8 +11,8 @@
     - primary meta tags
   -->
   <title>ItePrevengo - Comité SST</title>
-  <meta name="title" content="ItePrevengo Software">
-  <meta name="description" content="#">
+  <meta name="title" content="Evita sanciones por no contar con un Comité SST">
+  <meta name="description" content="Entrenamiento + Consultoría Online + Software = CERO SANCIONES">
 
   <!-- 
     - favicon
