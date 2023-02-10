@@ -398,18 +398,15 @@ body {
 
 .sub-content h2{
   font-weight: 500;
-  font-size: 25px;
+  font-size: var(--fs-4);
   color: var(--iteazul);
   margin-bottom: 15px;
+  text-align: justify;
   font-family: 'Poppins';
+  /* margin: 3px; */
+  padding: 10px;
+  
 }
-
-/* .sub-content p{
-  font-weight: 500;
-  color: var(--iteazul);
-  margin-bottom: 30px;
-  font-family: 'Poppins';
-} */
 
 .fon-campo{
   width: 100%;
@@ -466,9 +463,9 @@ body {
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 415px){
   .sub-content h2{
-      font-size: 30px;
+      font-size: var(--fs-6);
   }
 }
 

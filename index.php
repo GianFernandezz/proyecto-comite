@@ -146,7 +146,8 @@
                   <i id="close">&#10006;</i>
     
                   <div class="sub-content">
-                      <h2>"Conoce cómo contar con un comité o supervisor de SST"</h2>
+                      <h2> <strong>BONO:</strong> Recibe los formatos editables para la conformación de comité SST y con 
+                          casos simulados, en complemento con el video de presentación</h2>
                       <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
                       
                       <form action="enviar.php" method="post" id="formulario" autocomplete="off">
