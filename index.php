@@ -66,15 +66,20 @@
         <div class="container">
 
           <div class="hero-card">
-            <figure class="about-banner">
-              <img src="./assets/images/portada-video.jpg" width="800" height="580" loading="lazy" alt="video-img"
-                class="w-100 btn-abrir">
-            </figure>
+            <a href="./presentacion.php">
+              <figure class="about-banner">
+                <img src="./assets/images/portada-video.jpg" width="800" height="580" loading="lazy" alt="video-img"
+                  class="w-100 btn-abrir">
+              </figure>
+            </a>
   
-            <button class="play-btn btn-abrir" aria-label="play adex intro">
-              <ion-icon name="play" aria-hidden="true"></ion-icon>
-                     
-            </button>
+            <a href="./presentacion.php">
+              <button class="play-btn btn-abrir" aria-label="play adex intro">
+                <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      
+              </button>
+            </a>
+
           </div>
 
           <div class="about-content">
@@ -86,38 +91,44 @@
             <ul>
 
               <li class="about-item">
-                  <h3 class="card-title">
-                    <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline"></ion-icon>
+                  <a href="./presentacion.php">
+                    <h3 class="card-title">
+                      <button class="accordion-btn">
+                        <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <p class="span h3 btn-abrir">Los pasos para lograr la conformación del comité o supervisor SST</p>
-                    </button>
-                  </h3>
+                        <p class="span h3 btn-abrir">Los pasos para lograr la conformación del comité o supervisor SST</p>
+                      </button>
+                    </h3>
+                  </a>
               </li>
               <li class="about-item">
-                  <h3 class="card-title">
-                    <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline"></ion-icon>
+                  <a href="./presentacion.php">
+                    <h3 class="card-title">
+                      <button class="accordion-btn">
+                        <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <p class="span h3 btn-abrir">Nuestras alternativas para lograrlo</p>
-                    </button>
-                  </h3>
+                        <p class="span h3 btn-abrir">Nuestras alternativas para lograrlo</p>
+                      </button>
+                    </h3>
+                  </a>
               </li>
 
               <li class="about-item">
-                  <h3 class="card-title">
-                    <button class="accordion-btn">
-                      <ion-icon name="checkmark-outline"></ion-icon>
+                  <a href="./presentacion.php">
+                    <h3 class="card-title">
+                      <button class="accordion-btn">
+                        <ion-icon name="checkmark-outline"></ion-icon>
 
-                      <p class="span h3 btn-abrir">Software para el proceso de elecciones</p>
-                    </button>
-                  </h3>
+                        <p class="span h3 btn-abrir">Software para el proceso de elecciones</p>
+                      </button>
+                    </h3>
+                  </a>
               </li>
 
               <!-- BOTON -->
 
               <button>
-                <a href="#" class="btn btn-primary btn-abrir">Ver Presentación</a> 
+                <a href="./presentacion.php" class="btn btn-primary btn-abrir">Ver Presentación</a> 
               </button>             
 
             </ul>
@@ -130,11 +141,10 @@
       <!-- 
         - #POP-UP | REGISTRO
         -->
-      <div class="pop-up">
+      <!-- <div class="pop-up">
         <div class="pop-up-wrap">
           <div class="pop-up-title">
-            <!-- <h2>"El video se reproducirá al envío de este pequeño formulario"</h2> -->
-                <!-- <p>"El video se reproducirá al envío de este pequeño formulario"</p> -->
+            
                   
           </div>
     
@@ -148,15 +158,15 @@
                   <div class="sub-content">
                       <h2> <strong>BONO:</strong> Recibe los formatos editables para la conformación de comité SST y con 
                           casos simulados, en complemento con el video de presentación</h2>
-                      <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                      
                       
                       <form action="enviar.php" method="post" id="formulario" autocomplete="off">
 
-                          <input type="text" class="fon-campo" id="nombre" name="nombre" maxlength="40" placeholder="Esccribe tu nombre completo">
+                          <input type="text" class="fon-campo" id="nombre" name="nombre" maxlength="40" placeholder="Escribe tu nombre completo">
 
-                          <input type="text" class="fon-campo" id="email" name="email" placeholder="Esccribe tu correo electronico" >
+                          <input type="text" class="fon-campo" id="email" name="email" placeholder="Escribe tu correo electronico" >
 
-                          <input type="text" class="fon-campo" id="phone" name="phone" maxlength="9" placeholder="Esccribe tu número de celular" >
+                          <input type="text" class="fon-campo" id="phone" name="phone" maxlength="9" placeholder="Escribe tu número de celular" >
 
                           <button class="subs-send" id="btn-validar" type="submit" name="send">Iniciar Presentación
                             
@@ -169,7 +179,7 @@
                   <div class="line"></div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
       <!-- 

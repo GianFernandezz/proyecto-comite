@@ -1,73 +1,73 @@
 
 
 
-document.getElementById('formulario').addEventListener('submit', async(e) => {
-    e.preventDefault();
+// document.getElementById('formulario').addEventListener('submit', async(e) => {
+//     e.preventDefault();
 
 
-    // Variables
-    let nombre = document.getElementById('nombre').value;
-    let email = document.getElementById('email').value;
-    let phone = document.getElementById('phone').value;
+//     // Variables
+//     let nombre = document.getElementById('nombre').value;
+//     let email = document.getElementById('email').value;
+//     let phone = document.getElementById('phone').value;
 
-    // Expresion regular
-    let ExpRegularText = /^\s+$/;
-    let ExpRegularEmail = !(/^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/.test(email));
-    let ExpregTel = !(/^\d{3}\d{3}\d{3}$/.test(phone));
-    let ExpregNum = /^([0-9])*$/;
+//     // Expresion regular
+//     let ExpRegularText = /^\s+$/;
+//     let ExpRegularEmail = !(/^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/.test(email));
+//     let ExpregTel = !(/^\d{3}\d{3}\d{3}$/.test(phone));
+//     let ExpregNum = /^([0-9])*$/;
 
-    // Validación
+//     // Validación
 
-    if(nombre == null || nombre.length <2 || nombre.maxlength=="40" || ExpRegularText.test(nombre)){
-        alertify.error('El campo nombre es inválido');
-        nombre = document.getElementById('nombre').style.boxShadow = "0 0 5px red";
-        return false;   
-    }
+//     if(nombre == null || nombre.length <2 || nombre.maxlength=="40" || ExpRegularText.test(nombre)){
+//         alertify.error('El campo nombre es inválido');
+//         nombre = document.getElementById('nombre').style.boxShadow = "0 0 5px red";
+//         return false;   
+//     }
 
-    else if(ExpregNum.test(nombre)){
-        alertify.error("El valor no es una letra");
-        return false; 
-    }
+//     else if(ExpregNum.test(nombre)){
+//         alertify.error("El valor no es una letra");
+//         return false; 
+//     }
     
-    else if(email == null || ExpRegularEmail){
-        alertify.error("El campo email es inválido");
-        email = document.getElementById('email').style.boxShadow = "0 0 5px red";
-        return false; 
+//     else if(email == null || ExpRegularEmail){
+//         alertify.error("El campo email es inválido");
+//         email = document.getElementById('email').style.boxShadow = "0 0 5px red";
+//         return false; 
        
-    }
-    else if(phone == null || ExpregTel || phone.maxlength=="9"){
-        alertify.error("El campo phone es inválido");
-        phone = document.getElementById('phone').style.boxShadow = "0 0 5px red";
-        return false; 
+//     }
+//     else if(phone == null || ExpregTel || phone.maxlength=="9"){
+//         alertify.error("El campo phone es inválido");
+//         phone = document.getElementById('phone').style.boxShadow = "0 0 5px red";
+//         return false; 
        
-    }
+//     }
 
-    // let msg = alertify.message('Cargando');
-    //     msg.delay(3).setContent('Cargando ... ');
+//     // let msg = alertify.message('Cargando');
+//     //     msg.delay(3).setContent('Cargando ... ');
 
-    //     alertify.success("Registro de datos fue exitoso") 
-        document.getElementById('nombre').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('phone').value = '';
-
-
-        let formData = new FormData();
+//     //     alertify.success("Registro de datos fue exitoso") 
+//         document.getElementById('nombre').value = '';
+//         document.getElementById('email').value = '';
+//         document.getElementById('phone').value = '';
 
 
-        formData.append('nombre', nombre);
-        formData.append('email', email);
-        formData.append('phone', phone);
-        formData.append('send', '');
+//         let formData = new FormData();
 
-        window.location.href = "./presentacion.php";
+
+//         formData.append('nombre', nombre);
+//         formData.append('email', email);
+//         formData.append('phone', phone);
+//         formData.append('send', '');
+
+//         window.location.href = "./presentacion.php";
         
-        await fetch('./enviar.php', {
-            method: 'POST',
-            body: formData
-        })
-        .catch(error => console.error('Error:', error))
+//         await fetch('./enviar.php', {
+//             method: 'POST',
+//             body: formData
+//         })
+//         .catch(error => console.error('Error:', error))
 
-});
+// });
 
 
 

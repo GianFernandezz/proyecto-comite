@@ -290,7 +290,7 @@ body {
   #CONTACTO-MODAL
 \*-----------------------------------*/
 
-.pop-up{
+/* .pop-up{
   background: rgba(48, 48, 48, 0.5);
   position: fixed;
   top: 0;
@@ -403,7 +403,6 @@ body {
   margin-bottom: 15px;
   text-align: justify;
   font-family: 'Poppins';
-  /* margin: 3px; */
   padding: 10px;
   
 }
@@ -467,7 +466,7 @@ body {
   .sub-content h2{
       font-size: var(--fs-6);
   }
-}
+} */
 
 
 /*-----------------------------------*\
