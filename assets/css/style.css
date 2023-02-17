@@ -201,11 +201,11 @@ body {
 
 .btn {
   color: var(--dark);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: var(--fw-700);
   border: 2px solid var(--white);
   max-width: max-content;
-  padding: 10px 50px;
+  padding: 15px 30px;
   border-radius: var(--radius-pill);
   transition: var(--transition-1);
   will-change: transform;
@@ -290,9 +290,10 @@ body {
   #CONTACTO-MODAL
 \*-----------------------------------*/
 
-/* .pop-up{
+.pop-up{
   background: rgba(48, 48, 48, 0.5);
   position: fixed;
+  z-index: 1000;
   top: 0;
   bottom: 0;
   left: 0;
@@ -398,9 +399,10 @@ body {
 
 .sub-content h2{
   font-weight: 500;
-  font-size: var(--fs-4);
+  font-size: 30px;
   color: var(--iteazul);
   margin-bottom: 15px;
+  /* text-align: justify; */
   text-align: justify;
   font-family: 'Poppins';
   padding: 10px;
@@ -464,9 +466,9 @@ body {
 
 @media only screen and (max-width: 415px){
   .sub-content h2{
-      font-size: var(--fs-6);
+      font-size: var(--fs-5);
   }
-} */
+}
 
 
 /*-----------------------------------*\
@@ -727,6 +729,14 @@ body {
    */
 
   .about .container {
+    grid-template-columns: 1fr 0.7fr ;
+    align-items: center;
+  }
+  /**
+   * VIDEO
+   */
+
+  .video .container {
     grid-template-columns: 1fr 0.7fr ;
     align-items: center;
   }

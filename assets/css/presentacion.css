@@ -137,16 +137,34 @@
 
 
 /* VIDEO */
+/* .video{
+    background-color: red;
+} */
+
+.video .container {
+    display: grid;
+    gap: 20px;
+    
+  }
+
 
 .video-main iframe{
     display: block;
     margin: 2px auto;
-    width: 90%;
-    height: calc(.88125 * 90vw);
+    width: 100%;
+    height: calc(.88125 * 35vw);
     max-width: 1280px;
     max-height: 720px;
     min-width: 320px;
     min-height: 180px;   
+}
+/* .botones-info{
+    background-color: #20ba5a;
+} */
+.agendar-cita a{
+    /* background-color: red; */
+    margin: 20px;
+    line-height: 1.2;
 }
 
 
@@ -166,14 +184,14 @@
         font-size: 23px;
         text-align: justify;
     }
+    .agendar-cita a{
+        margin: 8px;
+    }
     
   }
 
 
-.agendar-cita a{
-    /* background-color: red; */
-    margin: 20px;
-}
+
 
 .sombrear{
     background-color: #E9F930;

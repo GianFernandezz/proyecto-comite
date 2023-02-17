@@ -2,58 +2,58 @@
  * CLIENTES
  */
 
-const carrusel = document.querySelector(".carrusel-items");
+// const carrusel = document.querySelector(".carrusel-items");
 
-let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
-let intervalo = null;
-let step = 1;
-const start = () => {
-  intervalo = setInterval(function () {
-    carrusel.scrollLeft = carrusel.scrollLeft + step;
-    if (carrusel.scrollLeft === maxScrollLeft) {
-      step = step * -1;
-    } else if (carrusel.scrollLeft === 0) {
-      step = step * -1;
-    }
-  }, 10);
-};
+// let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
+// let intervalo = null;
+// let step = 1;
+// const start = () => {
+//   intervalo = setInterval(function () {
+//     carrusel.scrollLeft = carrusel.scrollLeft + step;
+//     if (carrusel.scrollLeft === maxScrollLeft) {
+//       step = step * -1;
+//     } else if (carrusel.scrollLeft === 0) {
+//       step = step * -1;
+//     }
+//   }, 10);
+// };
 
-const stop = () => {
-  clearInterval(intervalo);
-};
+// const stop = () => {
+//   clearInterval(intervalo);
+// };
 
-carrusel.addEventListener("mouseover", () => {
-  stop();
-});
+// carrusel.addEventListener("mouseover", () => {
+//   stop();
+// });
 
-carrusel.addEventListener("mouseout", () => {
-  start();
-});
+// carrusel.addEventListener("mouseout", () => {
+//   start();
+// });
 
-start();
+// start();
 
 
 /**
  * POPUP - CONTACTO
  */
 
-// $(document).ready(function () {
+$(document).ready(function () {
 
-//     function showPopup(){
-//         $('.pop-up').addClass('show');
-//         $('.pop-up-wrap').addClass('show');
-//     }
+    function showPopup(){
+        $('.pop-up').addClass('show');
+        $('.pop-up-wrap').addClass('show');
+    }
   
-//     $("#close").click(function(){
-//         $('.pop-up').removeClass('show');
-//         $('.pop-up-wrap').removeClass('show');
-//     });
+    $("#close").click(function(){
+        $('.pop-up').removeClass('show');
+        $('.pop-up-wrap').removeClass('show');
+    });
   
-//     $(".btn-abrir").click(showPopup);
+    $(".btn-abrir").click(showPopup);
   
-//     // setTimeout(showPopup, 2000);
+    // setTimeout(showPopup, 2000);
   
-//   });
+  });
 
 
 
