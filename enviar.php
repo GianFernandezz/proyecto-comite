@@ -18,7 +18,7 @@ require './PHPMailer/src/SMTP.php';
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'no-reply@iteprevengo.com';
-    $mail->Password = '#@no-Reply*123'; 
+    $mail->Password = '#@no-Reply-iteprevengo*123'; 
     $mail->Port = 465;
     $mail->SMTPSecure = 'ssl';
     $mail->CharSet = 'UTF-8';
