@@ -61,7 +61,7 @@
       <section class="section sanciones">
         <div class="container">
           <div class="sombrear">
-          <p class="h2 section-subtitle-presentacion">Entrenamiento + Consultoría + Software = CERO SANCIONES</p>
+          <p class="h2 section-subtitle-presentacion">Software Online para la Elección de Comité SST</p>
           </div>
         </div>
       </section>
@@ -71,14 +71,9 @@
         - #VIDEO - REPRODUCIR
         -->
 
-        <section class="video">
+        <section class="#">
               
             <div class="container">
-              <div class="video-main">
-                <iframe src="https://player.vimeo.com/video/797083479?h=4779914251" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-              </div>
-
-            
               <div class="botones-info">
                 <center>
                   <button class="agendar-cita">
@@ -88,7 +83,7 @@
 
                 <center>
                   <button class="agendar-cita">
-                    <a href="#" class="btn btn-primary btn-abrir">Descargar los formatos editables</a>
+                    <a class="btn btn-primary btn-abrir">Más información</a>
                   </button>
                 </center>
               
@@ -96,6 +91,19 @@
             </div>
        
         </section>
+
+        
+<!-- NEW VIDEO - CENTRADO -->
+        
+<section class="new-video">
+  <div class="container">
+    <div class="video-main">
+      <iframe src="https://player.vimeo.com/video/801668905?h=79f921792d" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- NEW VIDEO - CENTRADO END-->
 
 
       <!-- 
@@ -116,7 +124,7 @@
                   <i id="close">&#10006;</i>
     
                   <div class="sub-content">
-                      <h2> <strong>Descarga los formatos editables de comité SST</strong></h2>
+                      <h2> <strong>Completa tus datos y te enviaremos más información</strong></h2>
                       
                       
                       <form action="./enviar.php" method="post" id="formulario" autocomplete="off">
@@ -145,10 +153,16 @@
         <section class="imagenes-informativas">
           <div class="container">
             <div class="img-title">
-              <h3 class="h2 section-title">Nuestro Servicio Comité SST</h3>
+              <h3 class="h2 section-title">Pantallazos del Software de Comité SST</h3>
             </div>
             <div class="img-info">  
-              <img src="./assets/images/img-1.jpg" alt="img-informativa">
+              <img src="./assets/images/laptop.png" alt="img-informativa">
+            </div>
+
+            <br>
+
+            <div class="img-info">  
+              <img src="./assets/images/pantallazos-cell.png" alt="img-informativa">
             </div>
             <div class="img-title">
               <h3 class="h2 section-title">Escala de Multas</h3>
@@ -160,7 +174,7 @@
         </section>
 
       <!-- 
-        - # Trayectoria
+        - #QUIENES SOMOS
       -->
 
       <section class="section feature" aria-labelledby="feature-label">
@@ -168,27 +182,30 @@
 
           <figure class="feature-banner">
             <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe" target="_blank">
-              <img src="./assets/images/herbert-nuevo.jpg" width="800" height="531" loading="lazy" alt="Herbert"
+            <img src="./assets/images/herbert-new.jpg" width="800" height="531" loading="lazy" alt="Herbert"
               class="w-100">
             </a>
+            
           </figure>
 
           <div class="feature-content">
 
             <a href="https://www.linkedin.com/in/herbert-parimango/?originalSubdomain=pe" target="_blank">
-              <p class="section-subtitle nosotros">Acerca de Herbert Parimango</p>
+              <p class="nosotros">Acerca de nosotros</p>
 
-              <h2 class="h2 section-title">Trayectoria Profesional</h2>
+              <h2 class="h2 section-title">¿Quiénes somos?</h2>
 
               <p class="section-text">
-                Ing. Industrial con más de 19 años de experiencia profesional en la Gestión de Seguridad y Salud en el Trabajo y Gestión de Actividades de Alto Riesgo, ha laborado en importantes empresas del sector Industrial, Construcción y proyectos en Minería. 
-                  <br>
-                Cuenta con estudios de especialización en Sistemas Integrados de Gestión, Transformación Digital, OSHA y TEEX.
-                  <br>
-                Fundador de Iteprevengo, CEPAR e ItePrevengo Software.
+                Iteprevengo nace en el 2013 con el nombre de P&M HSEQ, de la mano de su fundador y CEO Ing. Herbert Parimango y un equipo de especialistas en prevención de accidentes y enfermedades ocupacionales, con el objetivo de hacer de los centros de trabajo, espacios 100% libres de accidentes. <br> 
+                Hoy, Iteprevengo renueva su compromiso de brindar servicios de soporte para la prevención de accidentes y enfermedades en el trabajo a través de la transformación digital de sus servicios y productos como Software para la gestión de seguridad y salud, Capacitaciones Virtuales, Online y presenciales , Consultorías online y semi presenciales y monitoreos de higiene ocupacional.
+              </p>  
+              <p><strong>"La prevención de accidentes en el trabajo nos une"</strong></p>
 
-              </p>
             </a>
+
+            <button class="agendar-cita">
+              <a class="btn btn-primary btn-abrir">Contáctanos</a>
+            </button>
 
           </div>
 

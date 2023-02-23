@@ -141,29 +141,27 @@
     background-color: red;
 } */
 
-.video .container {
+/* .video .container {
     display: grid;
     gap: 20px;
     
-  }
+  } */
 
 
 .video-main iframe{
     display: block;
     margin: 2px auto;
     width: 100%;
-    height: calc(.88125 * 35vw);
+    height: calc(.88125 * 40vw);
     max-width: 1280px;
     max-height: 720px;
     min-width: 320px;
     min-height: 180px;   
 }
-/* .botones-info{
-    background-color: #20ba5a;
-} */
+
 .agendar-cita a{
     /* background-color: red; */
-    margin: 20px;
+    margin: 15px;
     line-height: 1.2;
 }
 
@@ -175,8 +173,8 @@
     }
   }
 @media (max-width:415px){
-    .video .video-main iframe{
-        height: 200px;
+    .video-main iframe{
+        height: 300px;
     }
 
     /* texto-Presentacion */
@@ -206,13 +204,14 @@
 .img-title{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
 }
 
 .img-info{
     display: flex;
     justify-content: center; 
+    
 }
 
 .img-info img{
