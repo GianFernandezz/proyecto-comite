@@ -11,7 +11,7 @@
   -->
   <title>ItePrevengo - Comité SST</title>
   <meta name="title" content="Software para elegir comité de SST">
-  <meta name="description" content="Software online, evita sanciones por no contar con un Comité SST">
+  <meta name="description" content="Evita sanciones por no contar con un Comité SST">
 
   <!-- 
     - favicon
