@@ -788,8 +788,11 @@ body {
   /**
    * REUSED STYLE
    */
+/* ORIGINAL */
+  /* .container { max-width: 960px; } */
 
-  .container { max-width: 960px; }
+  /* CAMBIO */
+  .container { max-width: 800px; }
 
 
 
@@ -826,15 +829,12 @@ body {
    * REUSED STYLE
    */
 
-  .container { max-width: 1140px; }
+   /* ORIGINAL */
+  /* .container { max-width: 1140px; } */
 
-  /**
-   * STATS
-   */
+  /* NUEVO */
+  .container { max-width: 960px; }
 
-  .stats .container { max-width: 70%; }
-
-  .stats-card { padding: 60px; }
 
 
   /**
@@ -862,6 +862,10 @@ body {
    * REUSED STYLE
    */
 
-  .container { max-width: 1320px; }
+   /* ORIGINAL */
+  /* .container { max-width: 1320px; } */
+
+  /* NUEVO */
+  .container { max-width: 1000px; }
 
 }

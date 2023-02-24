@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendar Cita</title>
-    <meta name="title" content="Evita sanciones por no contar con un Comité SST">
-    <meta name="description" content="Entrenamiento + Consultoría Online + Software = CERO SANCIONES">
+    <meta name="title" content="Software para elegir comité de SST">
+    <meta name="description" content="Software online, evita sanciones por no contar con un Comité SST">
      
     <!-- 
     - favicon

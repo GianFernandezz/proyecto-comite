@@ -10,8 +10,8 @@
     - primary meta tags
   -->
   <title>ItePrevengo - Comité SST</title>
-  <meta name="title" content="Evita sanciones por no contar con un Comité SST">
-  <meta name="description" content="Entrenamiento + Consultoría Online + Software = CERO SANCIONES">
+  <meta name="title" content="Software para elegir comité de SST">
+  <meta name="description" content="Software online, evita sanciones por no contar con un Comité SST">
 
   <!-- 
     - favicon
@@ -153,7 +153,7 @@
         <section class="imagenes-informativas">
           <div class="container">
             <div class="img-title">
-              <h3 class="h2 section-title">Pantallazos del Software de Comité SST</h3>
+              <h3 class="h2 section-title">Vista del Software de Comité SST</h3>
             </div>
             <div class="img-info">  
               <img src="./assets/images/laptop.png" alt="img-informativa">
