@@ -33,8 +33,8 @@
     
     <section class="container">
         <div class="body-cita">
-            <div class="card">
-                <div class="main"><!-- El main reemplaza al HEADER -->
+            <!-- <div class="card">
+                <div class="main">
                     <div class="circle"></div>
                     <div class="img-cita">
                         <img src="./assets/images/citas/Pamela.png" alt="">
@@ -44,15 +44,15 @@
                 <div class="description">
                     <h3>Pamela Mercado</h3>
                     <h4>Estoy para ayudarte</h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem!</p> -->
+                    
                 </div>
         
                 <div class="contact-cita">
                     <a href="https://intranet.tecda.pe/advisory/byadviser?id=7">Agendar cita</a>
                 </div>
-            </div>
+            </div> -->
             <div class="card">
-                <div class="main"><!-- El main reemplaza al HEADER -->
+                <div class="main">
                     <div class="circle"></div>
                     <div class="img-cita">
                         <img src="./assets/images/citas/David.png" alt="">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="main"><!-- El main reemplaza al HEADER -->
+                <div class="main">
                     <div class="circle"></div>
                     <div class="img-cita">
                         <img src="./assets/images/citas/Herbert.png" alt="">
