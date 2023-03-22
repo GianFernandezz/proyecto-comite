@@ -41,7 +41,7 @@ document.getElementById('formulario').addEventListener('submit', (e) => {
         Swal.fire({
                 icon: 'success',
                 html: `<h1>GRACIAS POR EL REGISTRO</h1>
-                <p style="font-size: 18px;"><strong>Los documentos editables llegarán al correo indicado</strong></p>
+                <p style="font-size: 18px;"><strong>Nos contactaremos con usted lo más pronto posible</strong></p>
                 <br>
                 `,
                 width: '500px',

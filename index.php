@@ -10,8 +10,8 @@
     - primary meta tags
   -->
   <title>ItePrevengo - Comité SST</title>
-  <meta name="title" content="Software para elegir comité de SST">
-  <meta name="description" content="Evita sanciones por no contar con un Comité SST">
+  <meta name="title" content="Software de reportes de seguridad y salud">
+  <meta name="description" content="Notifica actos y condiciones sub estándar para prevenir accidentes">
 
   <!-- 
     - favicon
@@ -61,7 +61,7 @@
       <section class="section sanciones">
         <div class="container">
           <div class="sombrear">
-          <p class="h2 section-subtitle-presentacion">Software Online para la Elección de Comité SST</p>
+          <p class="h2 section-subtitle-presentacion">Software Online de Reportes de Seguridad y Salud</p>
           </div>
         </div>
       </section>
@@ -98,7 +98,7 @@
 <section class="new-video">
   <div class="container">
     <div class="video-main">
-      <iframe src="https://player.vimeo.com/video/801668905?h=79f921792d" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/810586689?h=d27c764f9d" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -153,23 +153,23 @@
         <section class="imagenes-informativas">
           <div class="container">
             <div class="img-title">
-              <h3 class="h2 section-title">Vista del Software de Comité SST</h3>
+              <h3 class="h2 section-title">Vista del Software de Reportes de Seguridad y Salud</h3>
             </div>
             <div class="img-info">  
-              <img src="./assets/images/laptop.png" alt="img-informativa">
+              <img src="./assets/images/report-ss/reporte-lapto-ss.png" alt="img-informativa">
             </div>
 
             <br>
 
             <div class="img-info">  
-              <img src="./assets/images/pantallazos-cell.png" alt="img-informativa">
+              <img src="./assets/images/report-ss/reporte-cel-ss.png" alt="img-informativa">
             </div>
-            <div class="img-title">
+            <!-- <div class="img-title">
               <h3 class="h2 section-title">Escala de Multas</h3>
             </div>
             <div class="img-info">
                   <img src="./assets/images/escala-de-multas expresada-en-soles.jpg" alt="img-informativa">
-            </div>
+            </div> -->
           </div>
         </section>
 

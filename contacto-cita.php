@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendar Cita</title>
-    <meta name="title" content="Software para elegir comité de SST">
-    <meta name="description" content="Evita sanciones por no contar con un Comité SST">
+    <meta name="title" content="Software de reportes de seguridad y salud">
+    <meta name="description" content="Notifica actos y condiciones sub estándar para prevenir accidentes">
      
     <!-- 
     - favicon
