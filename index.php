@@ -164,12 +164,16 @@
             <div class="img-info">  
               <img src="./assets/images/report-ss/reporte-cel-ss.png" alt="img-informativa">
             </div>
-            <!-- <div class="img-title">
-              <h3 class="h2 section-title">Escala de Multas</h3>
+            <div class="img-title">
+              <a href="https://www.iteprevengo.com/software/" target="_blank">
+                <h3 class="h2 section-title">Conoce Nuestros Módulos de SST</h3>
+              </a>
             </div>
-            <div class="img-info">
-                  <img src="./assets/images/escala-de-multas expresada-en-soles.jpg" alt="img-informativa">
-            </div> -->
+            <div class="img-info sst">
+              <a href="https://www.iteprevengo.com/software/" target="_blank">
+                <img src="./assets/images/gestion-sst.jpg" alt="Evoluciona tu gestión de SST">
+              </a>
+            </div>
           </div>
         </section>
 

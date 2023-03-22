@@ -219,6 +219,14 @@
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
 }
+.sst a{
+    display: flex;
+    justify-content: center; 
+}
+.sst img{
+    width: 80%;
+    /* background-color: red; */
+}
 
 /* TEST _ */
 #lightbox {
